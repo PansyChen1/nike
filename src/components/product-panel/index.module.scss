@@ -1,0 +1,45 @@
+.productPanel {
+  margin: 84px 48px;
+}
+
+.title {
+  color: #111;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.img {
+  width: 656px;
+  height: 700px;
+}
+.panel {
+  display: flex;
+  justify-content: space-around;
+}
+.panelItem {
+  position: relative;
+}
+
+.infoContent {
+  width: 492px;
+  height: 120px;
+  position: absolute;
+  bottom: 32px;
+  left: 24px;
+  p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 28px;
+  }
+  a {
+    padding: 12px 28px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background: #fff;
+    color: #111;
+    text-decoration: none;
+  }
+}
