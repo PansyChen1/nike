@@ -10,15 +10,15 @@ const Home = () => {
 
   return (
     <div className={styles.home}>
-      <div className={styles.head}>
+      <header className={styles.head}>
         <HomeHeadMessage />
         <HomeHeadNav />
-        <HomeSlider />
-        <HomeContent />
+      </header>
 
-        <Footer/>
-      </div>
+      <HomeSlider />
+      <HomeContent />
 
+      <Footer/>
     </div>
   )
 }

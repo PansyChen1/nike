@@ -10,8 +10,8 @@
 }
 
 .img {
-  width: 656px;
-  height: 700px;
+  width: 455px;
+  height: 540px;
 }
 .panel {
   display: flex;
@@ -36,10 +36,13 @@
   }
   a {
     padding: 12px 28px;
-    border: 1px solid #fff;
     border-radius: 20px;
     background: #fff;
     color: #111;
     text-decoration: none;
+  }
+  .aBgColor {
+    background: #111;
+    color: #fff;
   }
 }
