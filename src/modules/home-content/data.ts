@@ -1,8 +1,8 @@
 import img1 from '../../assets/images/recommend_1.jpg';
 import img2 from '../../assets/images/recommend_2.jpg';
 import img3 from '../../assets/images/recommend_3.jpg';
-import img4 from '../../assets/images/img_2.jpg';
-import img5 from '../../assets/images/img_3.jpg';
+import img4 from '../../assets/images/popular_1.jpg';
+import img5 from '../../assets/images/popular_2.jpg';
 
 export const POPULAR_DATA = [{
   img: img4,
